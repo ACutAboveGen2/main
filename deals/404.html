@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+		<title>404 - A Cut Above</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset=UTF-8">
+		<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+		<style>
+			/*Navigation Bar*/
+			body {
+				margin: 0;
+			}
+			.navbar {
+				width: 80%;
+				margin: 0 auto;
+			}
+			header {
+				background: white;
+				margin: -10px -8px 10px -8px;
+				padding: 15px 5px 5px 5px;
+			}
+			header::after {
+				content: "";
+				display: table;
+				clear: both;
+			}
+			.logo {
+				float: left;
+				padding: 10px 0;
+			}
+			nav {
+				float: right;
+			}
+			nav ul {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+			nav li {
+				display: inline-block;
+				margin-left: 50px;
+				padding-top: 22px;
+				font-family: 'Raleway', sans-serif;
+				position: relative;
+			}
+			nav a {
+				color: black;
+				text-decoration: none;
+				text-transform: uppercase;
+			}
+			nav a:hover {
+				color: #00B050
+			}
+			nav a::before {
+				content: "";
+				display: block;
+				height: 5px;
+				background-color: #00B050;
+				position: absolute;
+				top: -5px;
+				width: 0%;
+				transition: all ease-in-out 200ms;
+			}
+			nav a:hover::before {
+				width: 100%;
+			}
+			.highlight-button:hover {
+				border-style: solid;
+				border-color: black;
+				color: white;
+				border-width: 2px;
+				border-radius: 10px;
+				padding: 10px 10px 10px 10px;
+				background: black;
+			}
+			.highlight-button {
+				border-style: solid;
+				border-color: #00B050;
+				color: #00B050;
+				border-width: 2px;
+				transition: ease-in-out 250ms;
+				border-radius: 10px;
+				padding: 10px 10px 10px 10px;
+				background: white;
+			}
+			.highlight-button:hover::before {
+				width: 0%;
+			}
+			/*Main*/
+			main {
+				margin-left: -10px;
+				margin-right: -10px;
+			}
+			body {
+				background: #e3e3e3;
+			}
+            /*Body*/
+            .Home-Head {
+                background-image: url('Grass-Header.jpg');
+                background-size: 100% 100%;
+                width: 95%px;
+                height: 500px;
+                margin: -20px -3px -3px -3px;
+                padding: 30px 30px 30px 30px;
+            }
+            .Home-Head p {
+                font-size: 100px;
+                font-family: 'Roboto';
+                text-align: center;
+                color: white;
+            }
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="navbar">
+				<a href="https://acutabovegj.com"><img width="200px" src="A Cut Above Logo.png" alt="A Cut Above Landscaping" class="logo"></a>
+				<nav>
+					<ul>
+						<li><a href="index.html"><b>Home</b></a></li>
+						<li><a href="service.html"><b>Service</b></a></li>
+						<li><a href="about.html"><b>About</b></a></li>
+						<li><a href="contact.html"><b>Contact</b></a></li>
+						<li><a class="highlight-button" href="https://service.acutabovegj.com">Request Service</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main>
+            <div class="Home-Head">
+                <p><b>WHOOPS!</b></p>
+                <p style="font-size: 30px; margin-top: -100px; color: black;"><b>We couldn't find that page, maybe try heading <a href="index.html">home</a>.</b></p>
+            </div>
+		</main>
+	</body>
+
+		<main>
+            <div class="Home-Head">
+                <p><b>WHOOPS!</b></p>
+                <p style="font-size: 30px; margin-top: -100px; color: black;"><b>We couldn't find that page, maybe try heading <a href="index.html">home</a>.</b></p>
+            </div>
+		</main>
+	</body>
+</html>
